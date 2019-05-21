@@ -1,0 +1,43 @@
+@import url("components/banner.css");
+@import url("components/navbar.css");
+@import url("components/avatar.css");
+
+/*font-family: 'Major Mono Display', monospace;
+font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.text-rgb210 {
+  color: rgb(220,220,220);
+  text-shadow: 1px 1px 15px #12C8CF;
+}
+
+.section {
+  padding: 40px;
+}
+
+.section-dark {
+  background-color: #3D3D3D;
+  color: #FBFBFB;
+}
+
+.section-light {
+  color: #3D3D3D;
+  background-color: #FBFBFB;
+}
+
+.section-semi-dark {
+  color: #3D3D3D;
+  background-color: #C9C9C9;
+}

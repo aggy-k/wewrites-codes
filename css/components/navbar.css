@@ -1,0 +1,18 @@
+/*.pos-top {
+  position: absolute;
+  top: 0px;
+}
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: transparent;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+*/

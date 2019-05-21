@@ -1,0 +1,84 @@
+.banner {
+  padding: 50px 20px;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.typewriter p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /*border-right: .15em solid orange;*/ /* The typwriter cursor */
+  /*white-space: nowrap;*/ /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.banner p {
+  font-family: 'Raleway Dots', cursive;
+  font-size: 48px;
+}
+
+.banner-bg {
+  background-color: #FBFBFB;
+}
+
+
+
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner-vh {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner-vh {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 380px) {
+  /* For a screen < 540px, this CSS will be read */
+  .banner-vh {
+    height: 35vh;
+  }
+}
+
+.top-right-menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.bottom-right-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
