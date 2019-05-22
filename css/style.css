@@ -11,11 +11,16 @@ p {
   font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
 h2 {
-  font-family: 'Raleway', sans-serif
-  font-size: 24px;
+  /*font-family: 'Raleway', sans-serif*/
+  font-family: 'Raleway Dots', cursive;
+  font-size: 32px;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .text-rgb210 {
@@ -24,7 +29,7 @@ h2 {
 }
 
 .section {
-  padding: 40px;
+  /*padding: 40px;*/
 }
 
 .section-dark {
@@ -41,3 +46,46 @@ h2 {
   color: #3D3D3D;
   background-color: #C9C9C9;
 }
+
+.section-white {
+  color: #3D3D3D;
+  background-color: #FFF;
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  width: 100%;
+}
+
+.icon-chevron {
+  border-radius: 50%;
+  border: dotted 1px rgba(0,0,0,0.3);
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #C9C9C9;
+  background-color: #FBFBFB;
+  font-size: 40px;
+}
+
+.icon-chevron a {
+  color: #C9C9C9;
+}
+
+.icon-chevron a:hover {
+  color: #3D3D3D;
+}
+
+.project-showcase {
+  width: 100%;
+}
+
+.contact-icon {
+  font-size: 32px;
+}
+
