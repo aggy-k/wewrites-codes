@@ -1,18 +1,14 @@
-/*.pos-top {
-  position: absolute;
-  top: 0px;
+.navbar-left-custom {
+  flex-grow: 0!important;
+  justify-content: flex-end!important;
 }
 
-.navbar-lewagon {
-  justify-content: space-between;
-  background: transparent;
+.logo {
+  width: 50px;
+  height: 50px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.logo-lg {
+  width: 75px;
+  height: 75px;
 }
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-*/
