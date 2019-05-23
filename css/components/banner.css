@@ -2,6 +2,7 @@
   padding: 50px 20px;
   position: relative;
   height: 100vh;
+  /*height: calc(100vh - 95px);*/
   height: calc(var(--vh, 1vh) * 100);
   display: flex;
   flex-direction: column;

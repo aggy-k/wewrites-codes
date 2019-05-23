@@ -1,0 +1,23 @@
+.section {
+  /*padding: 40px;*/
+}
+
+.section-dark {
+  background-color: #3D3D3D;
+  color: #FBFBFB;
+}
+
+.section-light {
+  color: #3D3D3D;
+  background-color: #FBFBFB;
+}
+
+.section-semi-dark {
+  color: #3D3D3D;
+  background-color: #C9C9C9;
+}
+
+.section-white {
+  color: #3D3D3D;
+  background-color: #FFF;
+}

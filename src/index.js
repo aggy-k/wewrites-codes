@@ -9,3 +9,32 @@ window.addEventListener('resize', () => {
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
+
+const panda = document.querySelector("#click-me");
+
+const wrapper = document.querySelector(".wrapper")
+
+const menu = document.querySelector("#menu")
+
+const menuItem = document.querySelectorAll(".menu-item")
+
+const toggleMenu = () => {
+  if (menu.style.display === 'none') {
+    menu.style.display = '';
+  } else {
+    menu.style.display = 'none';
+  }
+}
+
+panda.addEventListener("click", (event) => {
+  wrapper.classList.toggle("blurred");
+  toggleMenu();
+})
+
+menuItem.forEach((menu) => {
+  menu.addEventListener("click", (event) => {
+    console.log(event)
+    wrapper.classList.toggle("blurred");
+    toggleMenu();
+  })
+})

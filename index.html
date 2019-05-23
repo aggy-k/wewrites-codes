@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway|Raleway+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Caveat|Raleway|Raleway+Dots&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
@@ -23,216 +23,205 @@
 
   </head>
   <body>
-    <div style="position: fixed; top:0; left:0; z-index: 10; background-color: transparent;" class="w-100">
-      <nav class="navbar navbar-expand-lg navbar-light section-white">
-        <a class="navbar-brand" href="#"><img src="./assets/images/CodePandaLogo.png" class="logo-lg" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div id="click-me">click me</div>
 
-        <div class="collapse navbar-collapse navbar-left-custom w-100" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <!-- <li class="nav-item active"> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About us <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-
-          </ul>
-
-        </div>
-      </nav>
+    <div class="menu" id="menu" style="display: none">
+     <ul class="list-group list-group-flush">
+      <a href="#about"><li class="list-group-item menu-item">Who we are</li></a>
+      <a href="#projects"><li class="list-group-item menu-item">Past projects</li></a>
+      <a href="#contact"><li class="list-group-item menu-item">Contact us</li></a>
+    </ul>
     </div>
 
-    <div class="banner banner-bg typewriter">
-      <p>MOBILE FOCUS DESIGN</p>
-      <p>Something Else</p>
-      <!-- need transition -->
-      <!-- <div class="icon-chevron animated infinite pulse delay-2s" style="position: absolute; bottom: 30px;">
-        <a href="#about"><i class="fas fa-chevron-down"></i></a>
-      </div> -->
-      <div class="icon-chevron animated infinite pulse" style="position: absolute; bottom: 30px;">
-        <a href="#about"><i class="fas fa-arrow-down"></i></a>
+    <div class="wrapper">
+
+      <div class="banner banner-bg typewriter mt-vh">
+        <img src="./assets/images/CodePandaLogo.png" class="logo-lg" alt="" id="logo">
+        <p>MOBILE FOCUS DESIGN</p>
+        <p>Something Else</p>
+        <!-- need transition -->
+        <!-- <div class="icon-chevron animated infinite pulse delay-2s" style="position: absolute; bottom: 30px;">
+          <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div> -->
+        <div class="icon-chevron animated infinite pulse" style="position: absolute; bottom: 30px;">
+          <a href="#about"><i class="fas fa-arrow-down"></i></a>
+        </div>
+
       </div>
 
-    </div>
+      <div class="row justify-content-center m0" style="position: relative;" id="about">
+        <div class="section-wrapper mt-vh">
 
-    <div class="row justify-content-center m0" style="position: relative;" id="about">
-      <div class="section-wrapper">
+          <div class="section section-light row align-items-center justify-content-center">
+            <div class="col-10 col-lg-10 p-3">
+              <h2 class="text-center">WHO WE ARE</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+              </p>
 
-        <div class="section section-light row align-items-center justify-content-center">
-          <div class="col-10 col-lg-10 p-3">
-            <h2 class="text-center">WHO WE ARE</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-            </p>
-
-            <h2 class="text-center">WHAT WE DO</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-            </p>
+              <h2 class="text-center">WHAT WE DO</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+              </p>
+            </div>
+            <!-- <div class="col-12 col-lg-6 row justify-content-center bg-image" style="background-image: url('https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');">
+            </div> -->
           </div>
-          <!-- <div class="col-12 col-lg-6 row justify-content-center bg-image" style="background-image: url('https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');">
-          </div> -->
+
+
+          <div class="section section-dark row align-items-center m0">
+            <div class="col-12 col-lg-6 row justify-content-center bg-image m0" style="background-image: url('./assets/images/aggy.jpg');">
+            </div>
+            <div class="col-12 col-lg-6 p-5">
+              <h2>AGGY</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+              </p>
+            </div>
+          </div>
+
+          <div class="section section-semi-dark row align-items-center m0">
+            <div class="col-12 col-lg-6 p-5">
+              <h2>FRANK</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 row justify-content-center bg-image m0" style="background-image: url('./assets/images/frank.jpg');">
+            </div>
+          </div>
+
+        <!-- wrapper-end -->
         </div>
+        <!-- <div class="icon-chevron animated infinite pulse delay-2s" style="position: absolute; bottom: 10px; z-index: 2;">
+          <a href="#projects"><i class="fas fa-chevron-down"></i></a>
+        </div> -->
+
+      </div>
 
 
-        <div class="section section-dark row align-items-center m0">
-          <div class="col-12 col-lg-6 row justify-content-center bg-image m0" style="background-image: url('./assets/images/aggy.jpg');">
+
+      <div class="row justify-content-center m0" id="projects" style="position: relative;">
+        <div class="section section-white pt-4 mt-vh">
+          <h2 class="text-center pt-4" style="font-family: 'Raleway Dots', cursive; font-weight: normal;">PROJECTS</h2>
+          <div class="row m0">
+            <div class="col-12 col-lg-6">
+              <img src="./assets/images/spaceshare-iphone.png" alt="" class="project-showcase">
+            </div>
+            <div class="col-12 col-lg-6 row align-items-center m0">
+              <div class="p-5">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+                </p>
+                <ul>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+              </div>
+            </div>
           </div>
+          <div class="row m0">
+            <div class="col-12 col-lg-6">
+              <img src="./assets/images/nutriv-iphone.png" alt="" class="project-showcase">
+            </div>
+            <div class="col-12 col-lg-6 row m0 align-items-center">
+              <div class="p-5">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+                </p>
+                <ul>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row m0">
+            <div class="col-12 col-lg-6">
+              <img src="./assets/images/spaceshare-iphone.png" alt="" class="project-showcase">
+            </div>
+            <div class="col-12 col-lg-6 row m0 align-items-center">
+              <div class="p-5">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
+                </p>
+                <ul>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                  <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- <div class="icon-chevron animated infinite pulse delay-2s" style="position: absolute; bottom: 10px; z-index: 2;">
+          <a href="#contact"><i class="fas fa-chevron-down"></i></a>
+        </div> -->
+      </div>
+
+
+
+      <div class="section section-dark p-4" id="contact">
+        <h2 class="text-center mt-vh">Want to work with us?</h2>
+        <div class="row">
           <div class="col-12 col-lg-6 p-5">
-            <h2>AGGY</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-            </p>
-          </div>
-        </div>
+            <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, quae voluptatum. Aperiam maxime nobis perferendis vitae id eaque cum a obcaecati, ut, explicabo commodi quaerat. Pariatur vero veniam dolorem.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque id rem eum repellat aspernatur obcaecati libero, quis magni rerum delectus qui pariatur accusantium! Odit repudiandae eveniet sed, voluptatibus officiis natus.</p>
+            <p>Shoot us a message by email or on WeChat, or use the contact form. We'll get back to you ASAP.</p>
 
-        <div class="section section-semi-dark row align-items-center m0">
-          <div class="col-12 col-lg-6 p-5">
-            <h2>FRANK</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-            </p>
           </div>
-          <div class="col-12 col-lg-6 row justify-content-center bg-image m0" style="background-image: url('./assets/images/frank.jpg');">
-          </div>
-        </div>
+          <div class="col-12 col-lg-6 p-4">
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+              </div>
 
-      <!-- wrapper-end -->
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Say something, anything</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Something about you, the project you want to do..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning w-100">Submit</button>
+            </form>
+
+          </div>
+
+          <div class="w-100 row m0 p-5 align-items-center justify-content-center">
+            <ul class="list-inline contact-icon">
+              <li class="list-inline-item"><i class="fab fa-weixin"></i></li>
+              <li class="list-inline-item"><i class="far fa-envelope"></i></li>
+            </ul>
+          </div>
+
+        </div>
       </div>
-      <!-- <div class="icon-chevron animated infinite pulse delay-2s" style="position: absolute; bottom: 10px; z-index: 2;">
-        <a href="#projects"><i class="fas fa-chevron-down"></i></a>
-      </div> -->
-
-    </div>
-
-
-
-    <div class="row justify-content-center m0" id="projects" style="position: relative;">
-      <div class="section section-white pt-4">
-        <h2 class="text-center pt-4" style="font-family: 'Raleway Dots', cursive; font-weight: normal;">PROJECTS</h2>
-        <div class="row m0">
-          <div class="col-12 col-lg-6">
-            <img src="./assets/images/spaceshare-iphone.png" alt="" class="project-showcase">
-          </div>
-          <div class="col-12 col-lg-6 row align-items-center m0">
-            <div class="p-5">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-              </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row m0">
-          <div class="col-12 col-lg-6">
-            <img src="./assets/images/nutriv-iphone.png" alt="" class="project-showcase">
-          </div>
-          <div class="col-12 col-lg-6 row m0 align-items-center">
-            <div class="p-5">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-              </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row m0">
-          <div class="col-12 col-lg-6">
-            <img src="./assets/images/spaceshare-iphone.png" alt="" class="project-showcase">
-          </div>
-          <div class="col-12 col-lg-6 row m0 align-items-center">
-            <div class="p-5">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A explicabo, repellat officia ab corporis natus ratione eius voluptatum. Minima explicabo, incidunt recusandae aperiam nemo obcaecati blanditiis amet quasi iste nostrum.
-              </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- <div class="icon-chevron animated infinite pulse delay-2s" style="position: absolute; bottom: 10px; z-index: 2;">
-        <a href="#contact"><i class="fas fa-chevron-down"></i></a>
-      </div> -->
-    </div>
-
-
-
-    <div class="section section-dark p-4" id="contact">
-      <h2 class="text-center">Want to work with us?</h2>
-      <div class="row">
-        <div class="col-12 col-lg-6 p-5">
-          <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa, quae voluptatum. Aperiam maxime nobis perferendis vitae id eaque cum a obcaecati, ut, explicabo commodi quaerat. Pariatur vero veniam dolorem.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque id rem eum repellat aspernatur obcaecati libero, quis magni rerum delectus qui pariatur accusantium! Odit repudiandae eveniet sed, voluptatibus officiis natus.</p>
-          <p>Shoot us a message by email or on WeChat, or use the contact form. We'll get back to you ASAP.</p>
-
-        </div>
-        <div class="col-12 col-lg-6 p-4">
-          <form>
-            <div class="form-group">
-              <label for="formGroupExampleInput2">Name</label>
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-            </div>
-
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Say something, anything</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Something about you, the project you want to do..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-warning w-100">Submit</button>
-          </form>
-
-        </div>
-
-        <div class="w-100 row m0 p-5 align-items-center justify-content-center">
-          <ul class="list-inline contact-icon">
-            <li class="list-inline-item"><i class="fab fa-weixin"></i></li>
-            <li class="list-inline-item"><i class="far fa-envelope"></i></li>
-          </ul>
-        </div>
-
-      </div>
+    <!-- wrapper -->
     </div>
 
     <script src="./src/index.js"></script>

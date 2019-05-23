@@ -1,0 +1,27 @@
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+}
+
+.project-showcase {
+  width: 100%;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-lg {
+  width: 75px;
+  height: 75px;
+}
+
+.logo, .logo-lg {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 99;
+}

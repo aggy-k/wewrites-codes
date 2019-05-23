@@ -1,10 +1,10 @@
 @import url("components/banner.css");
 @import url("components/navbar.css");
 @import url("components/avatar.css");
-
-/*font-family: 'Major Mono Display', monospace;
-font-family: 'Nunito', sans-serif;
-font-family: 'Raleway', sans-serif;*/
+@import url("components/section.css");
+@import url("components/icon.css");
+@import url("components/image.css");
+@import url("components/menu.css");
 
 p {
   font-family: 'Open Sans', sans-serif;
@@ -16,7 +16,6 @@ a {
 }
 
 h2 {
-  /*font-family: 'Raleway', sans-serif*/
   font-family: 'Raleway Dots', cursive;
   font-size: 32px;
   font-weight: bold;
@@ -28,67 +27,10 @@ h2 {
   text-shadow: 1px 1px 15px #12C8CF;
 }
 
-.section {
-  /*padding: 40px;*/
-}
-
-.section-dark {
-  background-color: #3D3D3D;
-  color: #FBFBFB;
-}
-
-.section-light {
-  color: #3D3D3D;
-  background-color: #FBFBFB;
-}
-
-.section-semi-dark {
-  color: #3D3D3D;
-  background-color: #C9C9C9;
-}
-
-.section-white {
-  color: #3D3D3D;
-  background-color: #FFF;
-}
-
-.bg-image {
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
-  width: 100%;
-}
-
-.icon-chevron {
-  border-radius: 50%;
-  border: dotted 1px rgba(0,0,0,0.3);
-  box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #C9C9C9;
-  background-color: #FBFBFB;
-  font-size: 24px;
-}
-
-.icon-chevron a {
-  color: #C9C9C9;
-}
-
-.icon-chevron a:hover {
-  color: #3D3D3D;
-}
-
-.project-showcase {
-  width: 100%;
-}
-
-.contact-icon {
-  font-size: 32px;
-}
-
 .m0 {
   margin: 0 !important;
+}
+
+.mt-vh {
+  /*margin-top: 95px !important;*/
 }
