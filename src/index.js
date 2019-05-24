@@ -10,13 +10,8 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
-const panda = document.querySelector("#click-me");
-
+const panda = document.querySelectorAll(".panda");
 const wrapper = document.querySelector(".wrapper")
-
-const menu = document.querySelector("#menu")
-
-const menuItem = document.querySelectorAll(".menu-item")
 
 const toggleMenu = () => {
   if (menu.style.display === 'none') {
@@ -26,15 +21,23 @@ const toggleMenu = () => {
   }
 }
 
-panda.addEventListener("click", (event) => {
-  wrapper.classList.toggle("blurred");
-  toggleMenu();
-})
-
-menuItem.forEach((menu) => {
+panda.forEach((menu) => {
   menu.addEventListener("click", (event) => {
     console.log(event)
     wrapper.classList.toggle("blurred");
     toggleMenu();
   })
 })
+
+// $("a[href^='#']").click(function(e) {
+//   e.preventDefault();
+
+//   var position = $($(this).attr("href")).offset().top;
+
+//   $("body, html").animate({
+//     scrollTop: position
+//   } /* speed */ );
+// });
+
+
+

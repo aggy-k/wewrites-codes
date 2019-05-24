@@ -19,7 +19,7 @@
   height: 75px;
 }
 
-.logo, .logo-lg {
+.logo-fixed {
   position: absolute;
   top: 25px;
   left: 25px;

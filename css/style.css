@@ -34,3 +34,9 @@ h2 {
 .mt-vh {
   /*margin-top: 95px !important;*/
 }
+
+.scroll-down {
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%;
+}
